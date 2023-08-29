@@ -1,0 +1,16 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "'qr-code'",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
+  "author": "Felipe Pozo",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3"
+  }
+}
